@@ -24,77 +24,130 @@
       crossorigin="anonymous"
     />
 
-    
     <!-- Jquery -->
     <script
       src="https://code.jquery.com/jquery-3.6.3.js"
       integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
       crossorigin="anonymous"
     ></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/18700748c0.js" crossorigin="anonymous"></script>
     <!--Mi css-->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    
+
     <!--mis scripts-->
     <script defer src="/assets/js/index.js"></script>
   </head>
 
   <body>
     <!-- header -->
-    <header >
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="mx-5" src="./assets/img/viajes.svg" alt="LogoViajes"></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto px-5 nav-list">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand px-5" href="#"
+            ><img src="./assets/img/viajes.svg" alt="LogoViajes"
+          /> Viajes Chile</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto px-5 nav-list">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="imagenPaisajes">
+            <img
+              src="./assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="imagenPaisajes"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="imagenMoai">
+            <img
+              src="./assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="imagenMoai"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="ImagenPinguino">
+            <img
+              src="./assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="ImagenPinguino"
+            />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
     </header>
+    <main>
+        <!-- Quienes Somos -->
+        <section class="container">
+                <h1 class="d-flex justify-content-center p-3 fs-2 fw-normal">¿QUIÉNES SOMOS?</h1>
+                <hr>
+                <div class="row row-cols-1 row-cols-md-3 g-3 py-5 justify-content-center">
+                    <div class="col ">
+                        <div class="p-2" style="background-color: #10CBE8 ;"><i class="fa-solid fa-plane"></i></div>
+                        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolorum sed? Eveniet sint et consectetur id officiis, omnis, voluptas impedit itaque veniam, nam dicta accusantium at facere ad blanditiis incidunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur architecto facilis, minus eligendi quis accusantium, perspiciatis deserunt ab culpa officiis sapiente eius explicabo soluta expedita earum unde tempore, facere magni! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ullam harum itaque, voluptatum eius quod et provident aspernatur est. Nulla architecto id numquam sequi iste earum laborum cupiditate harum ea?</p>
+                    </div>
+    
+                    <div class="col ">
+                        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolorum sed? Eveniet sint et consectetur id officiis, omnis, voluptas impedit itaque veniam, nam dicta accusantium at facere ad blanditiis incidunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur architecto facilis, minus eligendi quis accusantium, perspiciatis deserunt ab culpa officiis sapiente eius explicabo soluta expedita earum unde tempore, facere magni!orem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ullam harum itaque, voluptatum eius quod et provident aspernatur est. Nulla architecto id numquam sequi iste earum laborum cupiditate harum ea?</p>
+                        <div class="p-2" style="background-color: #10CBE8 ;"><i class="fa-solid fa-mountain"></i></div>
+                    </div>
+    
+                    <div class="col ">
+                        <div class="p-2" style="background-color: #10CBE8 ;"><i class="fa-solid fa-route"></i></div>
+                        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolorum sed? Eveniet sint et consectetur id officiis, omnis, voluptas impedit itaque veniam, nam dicta accusantium at facere ad blanditiis incidunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur architecto facilis, minus eligendi quis accusantium, perspiciatis deserunt ab culpa officiis sapiente eius explicabo soluta expedita earum unde tempore, facere magni! orem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ullam harum itaque, voluptatum eius quod et provident aspernatur est. Nulla architecto id numquam sequi iste earum laborum cupiditate harum ea?</p>
+                    </div>
+                </div>
+
+
+
+
+        </section>
+    </main>
   </body>
 </html>
