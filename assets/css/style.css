@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    }
+
+nav img {
+    width: 40px;
+}
