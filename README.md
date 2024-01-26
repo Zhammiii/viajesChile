@@ -1,17 +1,22 @@
-# viajesChile
- 
- <!-- iconos -->
+#Viajes Chile
 
-<i class="fa-solid fa-plane"></i>
-<i class="fa-solid fa-mountain"></i>
-<i class="fa-solid fa-route"></i>
-<i class="fa-brands fa-square-github"></i>
-<i class="fa-brands fa-linkedin"></i>
-<i class="fa-brands fa-square-x-twitter"></i>
-<i class="fa-brands fa-square-facebook"></i>
+Bienvenido al repositorio del proyecto Viajes Chile. Este proyecto es un sitio web dedicado a promover y compartir información sobre destinos turísticos en Chile.(proyecto ficticio)
 
-<!-- colores
-#10CBE8 
+Recursos Utilizados
 
- -->
+Tecnologías Principales
+- HTML5
+- CSS3
+- JavaScript
 
+Frameworks y Bibliotecas
+- Bootstrap 5.3.0
+- Font Awesome 5.15.4
+- jQuery 3.6.3
+
+Imágenes
+- Imágenes de carrusel y tarjetas ubicadas en la carpeta ./assets/img/
+
+Archivos CSS y JavaScript Propios
+- Archivo CSS personalizado: ./assets/css/style.css
+- Archivo JavaScript personalizado: ./assets/js/index.js

@@ -1,3 +1,4 @@
+/* scroll */
 $(document).ready(function () {
   $("a").on("click", function (event) {
     if (this.hash !== "") {
@@ -16,10 +17,14 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  $("button").tooltip();
-});
+/* Boton de enviar */
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
 
-$("#enviarCorreo").click(function () {
-  alert("Gracias por contactarnos");
-});
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}
+
