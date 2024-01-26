@@ -10,8 +10,8 @@ Tecnologías Principales
 - JavaScript
 
 Frameworks y Bibliotecas
-- Bootstrap 5.3.0
-- Font Awesome 5.15.4
+- Bootstrap 5.3.2
+- Font Awesome 6.5.1
 - jQuery 3.6.3
 
 Imágenes
