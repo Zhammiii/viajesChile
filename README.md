@@ -33,3 +33,19 @@ Imágenes
 Archivos CSS y JavaScript Propios
 - Archivo CSS personalizado: ./assets/css/style.css
 - Archivo JavaScript personalizado: ./assets/js/index.js
+
+Componente bootstrap usados
+
+- Navbar 
+- Carrusel 
+- Card
+- Botones
+
+Componentes Bootstrap JS
+
+- Carrusel 
+- Toasts en boton de formulario
+
+JS
+
+- Smooth Scroll para las secciones
