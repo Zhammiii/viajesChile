@@ -20,3 +20,16 @@ Imágenes
 Archivos CSS y JavaScript Propios
 - Archivo CSS personalizado: ./assets/css/style.css
 - Archivo JavaScript personalizado: ./assets/js/index.js
+
+
+Frameworks y Bibliotecas
+- Bootstrap 5.3.0
+- Font Awesome 5.15.4
+- jQuery 3.6.3
+
+Imágenes
+- Imágenes de carrusel y tarjetas ubicadas en la carpeta ./assets/img/
+
+Archivos CSS y JavaScript Propios
+- Archivo CSS personalizado: ./assets/css/style.css
+- Archivo JavaScript personalizado: ./assets/js/index.js
