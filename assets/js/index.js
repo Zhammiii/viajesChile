@@ -15,3 +15,11 @@ $(document).ready(function () {
     }
   });
 });
+
+$(document).ready(function () {
+  $("button").tooltip();
+});
+
+$("#enviarCorreo").click(function () {
+  alert("Gracias por contactarnos");
+});
