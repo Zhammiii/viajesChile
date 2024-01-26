@@ -10,6 +10,8 @@
 <i class="fa-brands fa-square-x-twitter"></i>
 <i class="fa-brands fa-square-facebook"></i>
 
-<!-- colores -->
-
+<!-- colores
 #10CBE8 
+
+ -->
+
