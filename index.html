@@ -65,18 +65,18 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto px-5 nav-list">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" href="#"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes Somos</a>
+                <a class="nav-link" href="#section1">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#section2">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contacto</a>
+                <a class="nav-link" href="#section3">Contacto</a>
               </li>
             </ul>
           </div>
@@ -128,7 +128,7 @@
     </header>
     <main>
       <!-- Quienes Somos -->
-      <section class="container">
+      <section id="section1" class="container d-none d-md-block">
         <h1 class="d-flex justify-content-center p-3 fs-2 fw-normal">
           ¿QUIÉNES SOMOS?
         </h1>
@@ -195,13 +195,14 @@
         </div>
       </section>
       <!-- Destacados -->
-      <section class="container">
-        <h2 class="d-flex justify-content-center p-3 fs-2 fw-normal">
-          DESTACADOS
-        </h2>
+      <section id="section2" class="container">
+        <h2 class="p-3 fs-2 fw-normal text-center">DESTACADOS</h2>
         <hr />
-        <div class="row d-flex justify-content-between">
-          <div class="card p-0" style="width: 20rem; background-color: #10cbe8">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="card p-0 mb-3 me-2"
+            style="width: 20rem; background-color: #10cbe8"
+          >
             <img
               src="./assets/img/card1.jpg"
               class="card-img-top"
@@ -217,7 +218,10 @@
               </p>
             </div>
           </div>
-          <div class="card p-0" style="width: 20rem; background-color: #10cbe8">
+          <div
+            class="card p-0 mb-3 me-2"
+            style="width: 20rem; background-color: #10cbe8"
+          >
             <img
               src="./assets/img/card2.jpg"
               class="card-img-top"
@@ -233,7 +237,10 @@
               </p>
             </div>
           </div>
-          <div class="card p-0" style="width: 20rem; background-color: #10cbe8">
+          <div
+            class="card p-0 mb-3 me-2"
+            style="width: 20rem; background-color: #10cbe8"
+          >
             <img
               src="./assets/img/card3.jpg"
               class="card-img-top"
@@ -249,7 +256,10 @@
               </p>
             </div>
           </div>
-          <div class="card p-0" style="width: 20rem; background-color: #10cbe8">
+          <div
+            class="card p-0 mb-3 me-2"
+            style="width: 20rem; background-color: #10cbe8"
+          >
             <img
               src="./assets/img/card4.jpg"
               class="card-img-top"
@@ -268,13 +278,13 @@
         </div>
       </section>
       <!-- Contacto -->
-      <div class="container">
+      <div id="section3" class="container">
         <h2 class="d-flex justify-content-center mt-4 p-3 fs-2 fw-normal">
           CONTACTO
         </h2>
         <hr />
         <div class="mb-2">
-          <label for="exampleFormControlInput1" class="form-label"
+          <label for="exampleFormControlInput1" class="form-label fw-light"
             >Nombre</label
           >
           <input
@@ -283,18 +293,18 @@
             id="exampleFormControlInput1"
           />
         </div>
-        <div class="mb-2">
+        <div class="mb-2 fw-light">
           <label for="exampleFormControlInput1" class="form-label"
             >Asunto</label
           >
           <input
             type="text"
-            class="form-control"
+            class="form-control fw-light"
             id="exampleFormControlInput2"
           />
         </div>
         <div class="">
-          <label for="exampleFormControlTextarea1" class="form-label"
+          <label for="exampleFormControlTextarea1" class="form-label fw-light"
             >Mensaje</label
           >
           <textarea
@@ -313,19 +323,19 @@
       </div>
     </main>
     <!-- footer -->
-    <footer class="p-3 ">
+    <footer class="p-3">
       <div class="container">
-          <div class="d-flex row text-center">
-            <div class="col">
-              <p class="fw-light fs-2">VIAJES CHILE</p>
-            </div>
-            <div class="col fs-2 ">
-              <i class="fa-brands fa-square-github"></i>
-              <i class="fa-brands fa-linkedin"></i>
-              <i class="fa-brands fa-square-x-twitter"></i>
-              <i class="fa-brands fa-square-facebook"></i>
-            </div>
-      </div>
+        <div class="d-flex row text-center">
+          <div class="col">
+            <p class="fw-light fs-2">VIAJES CHILE</p>
+          </div>
+          <div class="col fs-2">
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
