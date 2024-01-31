@@ -27,6 +27,8 @@ main {
 
 .card {
   border-radius: 0px;
+  width: 20rem;
+  background-color: #10cbe8;
 }
 
 /* Bonton form */
